@@ -1,0 +1,38 @@
+@media (max-width:768px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        overflow:auto;
+    }
+    
+    .container{
+        padding:0px;
+    }
+
+    .grid{
+        max-width: auto;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+    }
+
+    .sedan{
+        border-radius: 0px;
+    }
+    .luxury{
+        border-radius: 0px;
+    }
+
+    .sedan,.suv,.luxury{
+        padding-top: 50px;
+        padding-bottom:50px;
+        padding-right: 50px;
+        padding-left: 20px;
+    }
+
+}

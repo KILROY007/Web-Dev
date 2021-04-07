@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.google.com/specimen/Big+Shoulders+Display');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    overflow: hidden;
+}
+
+.container{
+    max-width: 1440px;
+    margin:auto;
+    padding-left: 20rem;
+    padding-right:15rem;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+.sedan {
+    background-color:hsl(31,77%,52%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.suv{
+    background-color:hsl(184, 100%, 22%);
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.btn{
+    text-decoration:none;
+    color: hsl(0, 0%, 95%);
+    border:2px solid hsl(0, 0%, 95%);
+    border-radius: 25px;
+    margin-left: 30px;
+}
+
+.sedan .btn:hover{
+    background-color:white;
+    color:hsl(31,77%,52%);
+}
+
+.suv .btn:hover{
+    background-color:white;
+    color:hsl(184, 100%, 22%);
+}
+
+.luxury .btn:hover{
+    background-color:white;
+    color:hsl(179, 100%, 13%);
+}
+
+h1{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    padding-left:2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color:hsl(0, 0%, 95%)
+}
+
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-weight: 550;
+    line-height: 25px;
+    padding-left:2rem;
+    padding-bottom:5rem;
+    font-family: 'Big Shoulders Display';
+    text-align: left;
+}
+
+a{
+    padding:10px;
+    font-size: larger;
+}
+
+.sedan,.suv,.luxury{
+    padding-top: 50px;
+    padding-bottom:50px;
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+.sedan img,.suv img,.luxury img{
+    padding-left: 35px;
+}
+
